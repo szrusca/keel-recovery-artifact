@@ -1,0 +1,113 @@
+{
+ "stacks": [
+  "groq:qwen/qwen3.8-27b",
+  "ovh:Qwen3.8-27B",
+  "cloudflare:@cf/qwen/qwen3.8-27b"
+ ],
+ "results": [
+  {
+   "idx": 0,
+   "seed": 7000,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 277,
+     "tokens": 266
+    },
+    "ovh:Qwen3.8-27B": {
+     "status": 401,
+     "error": "client_http_401",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 937,
+     "tokens": 0
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 7509,
+     "tokens": 546
+    }
+   }
+  },
+  {
+   "idx": 1,
+   "seed": 7000,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 290,
+     "tokens": 1059
+    },
+    "ovh:Qwen3.8-27B": {
+     "status": 401,
+     "error": "client_http_401",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 610,
+     "tokens": 0
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 9524,
+     "tokens": 1273
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+seed=2000 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00582 calls=19 retries=2 rollbacks=0 escalated=True aborted=False

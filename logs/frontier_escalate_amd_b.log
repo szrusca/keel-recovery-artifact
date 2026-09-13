@@ -1,0 +1,11 @@
+seed=2010 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00538 calls=20 retries=2 rollbacks=0 escalated=True aborted=False
+seed=2011 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00533 calls=19 retries=2 rollbacks=0 escalated=True aborted=False
+seed=2012 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00642 calls=20 retries=3 rollbacks=0 escalated=True aborted=False
+seed=2013 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00624 calls=20 retries=3 rollbacks=0 escalated=True aborted=False
+seed=2014 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00580 calls=20 retries=2 rollbacks=0 escalated=True aborted=False
+seed=2015 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00552 calls=20 retries=2 rollbacks=0 escalated=True aborted=False
+seed=2016 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00561 calls=20 retries=2 rollbacks=0 escalated=True aborted=False
+seed=2017 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00547 calls=20 retries=2 rollbacks=0 escalated=True aborted=False
+seed=2018 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00537 calls=19 retries=2 rollbacks=0 escalated=True aborted=False
+seed=2019 policy=escalate  success=True progress=1.00 local=1.00 usd=0.00500 calls=20 retries=2 rollbacks=0 escalated=True aborted=False
+events: runs/frontier_amd_target/mistral_ministral-8b-latest_oracle_20260911-215643.events.jsonl

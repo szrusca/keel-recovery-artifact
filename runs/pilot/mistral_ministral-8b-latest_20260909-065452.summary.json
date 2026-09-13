@@ -1,0 +1,3825 @@
+{
+ "config": {
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "switch_provider": "nvidia",
+  "switch_model": "nvidia/nemotron-3-super-120b-a12b",
+  "reasoning": null,
+  "switch_reasoning": null,
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "thinking_level": "low",
+  "k": 4,
+  "n_steps": 16,
+  "ops_per_step": 3,
+  "n_accounts": 8,
+  "strategies": [
+   "same",
+   "hot",
+   "rephrase",
+   "reset",
+   "switch"
+  ],
+  "expected_output": 200,
+  "max_calls": 1500
+ },
+ "trajectories": [
+  {
+   "seed": 1000,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 2,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 5,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 6,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 7,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 9,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 10,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 11,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 12,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 13,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 14,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 15,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 16,
+     "main_outcome": "ok",
+     "recoveries": {}
+    }
+   ]
+  },
+  {
+   "seed": 1001,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 2,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 2
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 3,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 5,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 6,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 7,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 9,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 10,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 11,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 12,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 13,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 14,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 15,
+     "main_outcome": "format_badjson",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "format_badjson",
+        "format_badjson",
+        "format_badjson",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "format_badjson",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "format_badjson",
+        "format_badjson",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 16,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1002,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 5,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 6,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 7,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 9,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 2
+      }
+     }
+    },
+    {
+     "t": 10,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 11,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 12,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 13,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 14,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 15,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 16,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1003,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 5,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 6,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 7,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 9,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 10,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 11,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 12,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 13,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 14,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 15,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 16,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1004,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 2
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 3,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 4,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 5,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 6,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 7,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 8,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 9,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "format_badjson",
+        "semantic",
+        "format_badjson"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 10,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 11,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 12,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 13,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 14,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 15,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 4
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 16,
+     "main_outcome": "ok",
+     "recoveries": {}
+    }
+   ]
+  },
+  {
+   "seed": 1005,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 2,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 5,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 6,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 7,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 8,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 2
+      },
+      "reset": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 9,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 10,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 11,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 12,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 13,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 14,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 15,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 16,
+     "main_outcome": "ok",
+     "recoveries": {}
+    }
+   ]
+  },
+  {
+   "seed": 1006,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 5,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 6,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "format_badjson",
+        "semantic",
+        "format_badjson",
+        "format_badjson"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 7,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 9,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 10,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 11,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 12,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "switch": {
+       "attempts": [
+        "infra_http_503",
+        "ok"
+       ],
+       "recovered_at": 2
+      }
+     }
+    },
+    {
+     "t": 13,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 14,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 15,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 16,
+     "main_outcome": "ok",
+     "recoveries": {}
+    }
+   ]
+  },
+  {
+   "seed": 1007,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 5,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 6,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 7,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 8,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 9,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 10,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 11,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 12,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 13,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 14,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 15,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 16,
+     "main_outcome": "ok",
+     "recoveries": {}
+    }
+   ]
+  },
+  {
+   "seed": 1008,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 3,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 5,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 6,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 7,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 9,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 10,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 11,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "rephrase": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 12,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 13,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 14,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 15,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 16,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1009,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 5,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 6,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 7,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 9,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 4
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 10,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "infra_http_503",
+        "ok"
+       ],
+       "recovered_at": 2
+      }
+     }
+    },
+    {
+     "t": 11,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 3
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "ok"
+       ],
+       "recovered_at": 2
+      },
+      "reset": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 12,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 13,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 14,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 15,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 16,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "hot": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "rephrase": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "reset": {
+       "attempts": [
+        "semantic",
+        "semantic",
+        "semantic",
+        "semantic"
+       ],
+       "recovered_at": null
+      },
+      "switch": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

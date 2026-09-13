@@ -1,0 +1,22 @@
+seed=2000 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01188 calls=45 retries=20 rollbacks=0 escalated=True aborted=False
+seed=2001 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.00847 calls=36 retries=14 rollbacks=0 escalated=True aborted=False
+seed=2002 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.00970 calls=39 retries=15 rollbacks=0 escalated=True aborted=False
+seed=2003 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01156 calls=43 retries=19 rollbacks=0 escalated=True aborted=False
+seed=2004 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01011 calls=43 retries=18 rollbacks=0 escalated=True aborted=False
+seed=2005 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.00838 calls=34 retries=12 rollbacks=0 escalated=True aborted=False
+seed=2006 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.00738 calls=34 retries=12 rollbacks=0 escalated=True aborted=False
+seed=2007 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.00983 calls=44 retries=19 rollbacks=0 escalated=True aborted=False
+seed=2008 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01131 calls=52 retries=20 rollbacks=0 escalated=True aborted=False
+seed=2009 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01084 calls=45 retries=17 rollbacks=0 escalated=True aborted=False
+seed=2010 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.00874 calls=35 retries=13 rollbacks=0 escalated=True aborted=False
+seed=2011 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01122 calls=47 retries=22 rollbacks=0 escalated=True aborted=False
+seed=2012 policy=escalate_step success=False progress=0.25 local=0.88 usd=0.01073 calls=53 retries=28 rollbacks=0 escalated=True aborted=False
+seed=2013 policy=escalate_step success=False progress=0.31 local=0.88 usd=0.01181 calls=53 retries=28 rollbacks=0 escalated=True aborted=False
+seed=2014 policy=escalate_step success=False progress=0.12 local=0.88 usd=0.00777 calls=45 retries=22 rollbacks=0 escalated=True aborted=False
+seed=2015 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01025 calls=38 retries=15 rollbacks=0 escalated=True aborted=False
+seed=2016 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01320 calls=50 retries=24 rollbacks=0 escalated=True aborted=False
+seed=2017 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.00986 calls=43 retries=18 rollbacks=0 escalated=True aborted=False
+seed=2018 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.01233 calls=44 retries=19 rollbacks=0 escalated=True aborted=False
+seed=2019 policy=escalate_step success=True progress=1.00 local=1.00 usd=0.00592 calls=31 retries=10 rollbacks=0 escalated=True aborted=False
+events: runs/frontier/mistral_ministral-8b-latest_oracle_20260910-202344.events.jsonl
+DONE

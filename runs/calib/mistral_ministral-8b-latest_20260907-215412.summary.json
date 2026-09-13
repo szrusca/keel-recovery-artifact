@@ -1,0 +1,111 @@
+{
+ "config": {
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "switch_provider": "gemini",
+  "switch_model": "gemini-3.6-flash",
+  "reasoning": null,
+  "switch_reasoning": null,
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "thinking_level": "low",
+  "k": 1,
+  "n_steps": 8,
+  "ops_per_step": 5,
+  "n_accounts": 8,
+  "strategies": [
+   "same"
+  ],
+  "expected_output": 400,
+  "max_calls": 0
+ },
+ "trajectories": [
+  {
+   "seed": 8500,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 5,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 6,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 7,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "ok",
+     "recoveries": {}
+    }
+   ]
+  }
+ ]
+}

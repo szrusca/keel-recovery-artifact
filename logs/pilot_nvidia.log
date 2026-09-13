@@ -1,0 +1,7 @@
+traj 1/6 seed=1000 main_failures=4/16 calls_so_far=41
+traj 2/6 seed=1001 main_failures=5/16 calls_so_far=119
+traj 3/6 seed=1002 main_failures=5/16 calls_so_far=195
+traj 4/6 seed=1003 main_failures=4/16 calls_so_far=258
+stopped: max_calls reached
+events: runs/pilot/nvidia_nvidia-nemotron-3-super-120b-a12b_r-none_20260906-231753.events.jsonl
+DONE

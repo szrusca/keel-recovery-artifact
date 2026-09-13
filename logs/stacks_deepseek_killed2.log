@@ -1,0 +1,8 @@
+step 1/60 seed=7000 t=1 amd=format_empty amd=format_empty amd=format_empty amd=ok nvidia=ok nvidia=ok
+step 2/60 seed=7000 t=5 amd=ok amd=ok amd=ok amd=ok nvidia=ok nvidia=ok
+step 3/60 seed=7000 t=9 amd=ok amd=ok amd=ok amd=ok nvidia=format_empty nvidia=format_empty
+step 4/60 seed=7000 t=13 amd=ok amd=ok amd=ok amd=ok nvidia=ok nvidia=ok
+step 5/60 seed=7001 t=1 amd=semantic amd=semantic amd=ok amd=ok nvidia=ok nvidia=semantic
+step 6/60 seed=7001 t=5 amd=ok amd=ok amd=ok amd=ok nvidia=format_empty nvidia=ok
+step 7/60 seed=7001 t=9 amd=ok amd=ok amd=ok amd=ok nvidia=format_empty nvidia=ok
+step 8/60 seed=7001 t=13 amd=ok amd=ok amd=ok amd=ok nvidia=ok nvidia=format_empty

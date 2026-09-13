@@ -1,0 +1,65 @@
+{
+ "config": {
+  "provider": "nvidia",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "switch_provider": "nvidia",
+  "switch_model": "nvidia/nemotron-3-super-120b-a12b",
+  "reasoning": "none",
+  "switch_reasoning": null,
+  "policies": [
+   "rollback",
+   "escalate"
+  ],
+  "verifier": "oracle",
+  "fn_rate": 0.2,
+  "fp_rate": 0.05,
+  "n_traj": 1,
+  "n_steps": 6,
+  "ops": 3,
+  "accounts": 8,
+  "k": 2,
+  "checkpoint_every": 2,
+  "max_rollbacks": 4,
+  "infra_retries": 2,
+  "max_calls_per_task": 36,
+  "usd_cap": 0.02,
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "thinking_level": "low",
+  "expected_output": 800,
+  "seed_start": 9000,
+  "rpm": "nvidia=12",
+  "tpm": "",
+  "out": "runs/smoke_frontier2"
+ },
+ "rows": [
+  {
+   "seed": 9000,
+   "policy": "rollback",
+   "success": true,
+   "progress": 1.0,
+   "local_progress": 1.0,
+   "usd": 0.0011478,
+   "tokens": 4895,
+   "calls": 14,
+   "retries": 1,
+   "rollbacks": 1,
+   "escalated": false,
+   "aborted": false
+  },
+  {
+   "seed": 9000,
+   "policy": "escalate",
+   "success": true,
+   "progress": 1.0,
+   "local_progress": 1.0,
+   "usd": 0.0027446000000000003,
+   "tokens": 7705,
+   "calls": 20,
+   "retries": 3,
+   "rollbacks": 0,
+   "escalated": true,
+   "aborted": false
+  }
+ ]
+}

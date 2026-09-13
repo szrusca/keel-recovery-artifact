@@ -1,0 +1,129 @@
+{
+ "summary": {
+  "target_policy": "budget",
+  "target_config_overrides": {},
+  "tasks": 20,
+  "tasks_fully_covered": 1,
+  "request_hits": 152,
+  "request_misses": 19,
+  "replay_success_rate": 0.0,
+  "replay_local_progress": 0.375,
+  "replay_usd_per_task": 0.0042434,
+  "real_success_rate": 0.0,
+  "real_local_progress": 0.459375,
+  "real_usd_per_task": 0.00408487,
+  "per_task_success_agreement": 1.0
+ },
+ "rows": [
+  {
+   "seed": 2000,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2001,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2002,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2003,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2004,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2005,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2006,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2007,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2008,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2009,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2010,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2011,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2012,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2013,
+   "policy": "budget",
+   "success": false,
+   "progress": 0.0625,
+   "local_progress": 0.375,
+   "usd": 0.0042434,
+   "tokens": 42434,
+   "calls": 27,
+   "retries": 14,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": true,
+   "replayed": true
+  },
+  {
+   "seed": 2014,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2015,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2016,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2017,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2018,
+   "policy": "budget",
+   "uncovered": true
+  },
+  {
+   "seed": 2019,
+   "policy": "budget",
+   "uncovered": true
+  }
+ ]
+}

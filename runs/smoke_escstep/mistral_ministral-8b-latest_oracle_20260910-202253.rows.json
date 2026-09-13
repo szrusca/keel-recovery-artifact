@@ -1,0 +1,53 @@
+{
+ "config": {
+  "task": "t1",
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "switch_provider": "nvidia",
+  "switch_model": "nvidia/nemotron-3-super-120b-a12b",
+  "reasoning": null,
+  "switch_reasoning": null,
+  "policies": [
+   "escalate_step"
+  ],
+  "verifier": "oracle",
+  "fn_rate": 0.2,
+  "fp_rate": 0.05,
+  "verifier_seed": 0,
+  "n_traj": 1,
+  "n_steps": 4,
+  "ops": 3,
+  "accounts": 8,
+  "k": 1,
+  "checkpoint_every": 4,
+  "max_rollbacks": 4,
+  "infra_retries": 2,
+  "max_calls_per_task": 24,
+  "usd_cap": 0.02,
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "thinking_level": "low",
+  "expected_output": 400,
+  "seed_start": 9900,
+  "rpm": "mistral=25,nvidia=6",
+  "tpm": "",
+  "out": "runs/smoke_escstep"
+ },
+ "rows": [
+  {
+   "seed": 9900,
+   "policy": "escalate_step",
+   "success": true,
+   "progress": 1.0,
+   "local_progress": 1.0,
+   "usd": 0.0005425,
+   "tokens": 3133,
+   "calls": 6,
+   "retries": 1,
+   "rollbacks": 0,
+   "escalated": true,
+   "escalations": 1,
+   "aborted": false
+  }
+ ]
+}

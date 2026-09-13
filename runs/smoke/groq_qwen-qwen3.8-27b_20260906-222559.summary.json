@@ -1,0 +1,49 @@
+{
+ "config": {
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "switch_provider": "nvidia",
+  "switch_model": "nvidia/nemotron-3-super-120b-a12b",
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "thinking_level": "low",
+  "k": 2,
+  "n_steps": 4,
+  "ops_per_step": 3,
+  "n_accounts": 6,
+  "strategies": [
+   "same",
+   "hot",
+   "rephrase",
+   "reset",
+   "switch"
+  ]
+ },
+ "trajectories": [
+  {
+   "seed": 1000,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 2,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 3,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+seed=2000 policy=none      success=False progress=0.00 local=0.31 usd=0.02917 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2000 policy=retry     success=False progress=0.00 local=0.12 usd=0.05121 calls=81 retries=28 rollbacks=0 escalated=False aborted=False
+DONE

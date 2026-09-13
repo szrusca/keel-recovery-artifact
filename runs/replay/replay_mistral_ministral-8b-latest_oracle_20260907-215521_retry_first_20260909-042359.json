@@ -1,0 +1,121 @@
+{
+ "summary": {
+  "target_policy": "retry",
+  "target_config_overrides": {
+   "k": 1
+  },
+  "tasks": 20,
+  "tasks_fully_covered": 0,
+  "request_hits": 112,
+  "request_misses": 20,
+  "replay_success_rate": null,
+  "replay_local_progress": null,
+  "replay_usd_per_task": null,
+  "real_success_rate": 0.0,
+  "real_local_progress": 0.553125,
+  "real_usd_per_task": 0.005186395,
+  "per_task_success_agreement": null
+ },
+ "rows": [
+  {
+   "seed": 2000,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2001,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2002,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2003,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2004,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2005,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2006,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2007,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2008,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2009,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2010,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2011,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2012,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2013,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2014,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2015,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2016,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2017,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2018,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2019,
+   "policy": "retry",
+   "uncovered": true
+  }
+ ]
+}

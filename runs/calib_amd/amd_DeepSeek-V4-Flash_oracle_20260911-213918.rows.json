@@ -1,0 +1,83 @@
+{
+ "config": {
+  "task": "t1",
+  "provider": "amd",
+  "model": "DeepSeek-V4-Flash",
+  "switch_provider": "nvidia",
+  "switch_model": "nvidia/nemotron-3-super-120b-a12b",
+  "reasoning": null,
+  "switch_reasoning": null,
+  "policies": [
+   "none"
+  ],
+  "verifier": "oracle",
+  "fn_rate": 0.2,
+  "fp_rate": 0.05,
+  "verifier_seed": 0,
+  "n_traj": 3,
+  "n_steps": 16,
+  "ops": 3,
+  "accounts": 8,
+  "k": 2,
+  "checkpoint_every": 4,
+  "max_rollbacks": 4,
+  "infra_retries": 2,
+  "max_calls_per_task": 96,
+  "usd_cap": 0.02,
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "thinking_level": "low",
+  "expected_output": 400,
+  "seed_start": 2000,
+  "rpm": "amd=18",
+  "tpm": "groq=7000",
+  "out": "runs/calib_amd"
+ },
+ "rows": [
+  {
+   "seed": 2000,
+   "policy": "none",
+   "success": false,
+   "progress": 0.0,
+   "local_progress": 0.75,
+   "usd": 0.003311,
+   "tokens": 22740,
+   "calls": 16,
+   "retries": 0,
+   "rollbacks": 0,
+   "escalated": false,
+   "escalations": 0,
+   "aborted": false
+  },
+  {
+   "seed": 2001,
+   "policy": "none",
+   "success": false,
+   "progress": 0.8125,
+   "local_progress": 0.9375,
+   "usd": 0.003410820000000001,
+   "tokens": 23455,
+   "calls": 16,
+   "retries": 0,
+   "rollbacks": 0,
+   "escalated": false,
+   "escalations": 0,
+   "aborted": false
+  },
+  {
+   "seed": 2002,
+   "policy": "none",
+   "success": true,
+   "progress": 0.4375,
+   "local_progress": 0.9375,
+   "usd": 0.0033406799999999995,
+   "tokens": 22971,
+   "calls": 16,
+   "retries": 0,
+   "rollbacks": 0,
+   "escalated": false,
+   "escalations": 0,
+   "aborted": false
+  }
+ ]
+}

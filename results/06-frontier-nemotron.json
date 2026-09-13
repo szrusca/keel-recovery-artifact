@@ -1,0 +1,93 @@
+{
+ "summary": {
+  "none": {
+   "n": 6,
+   "success_rate": 0.0,
+   "progress_mean": 0.0625,
+   "local_progress_mean": 0.5625,
+   "usd_per_task": 0.005633033333333333,
+   "usd_per_success": null,
+   "calls_per_task": 29.333333333333332,
+   "tokens_per_task": 26029.5,
+   "retries_per_task": 0.0,
+   "rollbacks_per_task": 0.0,
+   "escalated_share": 0.0,
+   "aborted_share": 0.0
+  },
+  "retry": {
+   "n": 6,
+   "success_rate": 0.16666666666666666,
+   "progress_mean": 0.21875,
+   "local_progress_mean": 0.8020833333333334,
+   "usd_per_task": 0.009314466666666667,
+   "usd_per_success": 0.0558868,
+   "calls_per_task": 54.166666666666664,
+   "tokens_per_task": 42978.333333333336,
+   "retries_per_task": 10.333333333333334,
+   "rollbacks_per_task": 0.0,
+   "escalated_share": 0.0,
+   "aborted_share": 0.0
+  },
+  "reset": {
+   "n": 6,
+   "success_rate": 0.16666666666666666,
+   "progress_mean": 0.3333333333333333,
+   "local_progress_mean": 0.78125,
+   "usd_per_task": 0.006516066666666667,
+   "usd_per_success": 0.0390964,
+   "calls_per_task": 57.666666666666664,
+   "tokens_per_task": 28943.333333333332,
+   "retries_per_task": 12.666666666666666,
+   "rollbacks_per_task": 0.0,
+   "escalated_share": 0.0,
+   "aborted_share": 0.0
+  },
+  "rollback": {
+   "n": 6,
+   "success_rate": 0.16666666666666666,
+   "progress_mean": 0.21875,
+   "local_progress_mean": 0.6145833333333334,
+   "usd_per_task": 0.006657333333333334,
+   "usd_per_success": 0.039944,
+   "calls_per_task": 44.666666666666664,
+   "tokens_per_task": 30288.333333333332,
+   "retries_per_task": 9.666666666666666,
+   "rollbacks_per_task": 4.0,
+   "escalated_share": 0.0,
+   "aborted_share": 0.0
+  },
+  "escalate": {
+   "n": 6,
+   "success_rate": 1.0,
+   "progress_mean": 1.0,
+   "local_progress_mean": 1.0,
+   "usd_per_task": 0.009739033333333333,
+   "usd_per_success": 0.009739033333333333,
+   "calls_per_task": 40.5,
+   "tokens_per_task": 35969.833333333336,
+   "retries_per_task": 4.0,
+   "rollbacks_per_task": 0.0,
+   "escalated_share": 0.8333333333333334,
+   "aborted_share": 0.0
+  },
+  "budget": {
+   "n": 6,
+   "success_rate": 0.16666666666666666,
+   "progress_mean": 0.25,
+   "local_progress_mean": 0.7395833333333334,
+   "usd_per_task": 0.008420466666666666,
+   "usd_per_success": 0.0505228,
+   "calls_per_task": 49.5,
+   "tokens_per_task": 38879.0,
+   "retries_per_task": 9.5,
+   "rollbacks_per_task": 0.0,
+   "escalated_share": 0.0,
+   "aborted_share": 0.5
+  }
+ },
+ "pareto": [
+  "none",
+  "reset",
+  "escalate"
+ ]
+}

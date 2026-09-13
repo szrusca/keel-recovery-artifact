@@ -1,0 +1,66 @@
+{
+ "config": {
+  "task": "t1",
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "switch_provider": "kilocode",
+  "switch_model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "reasoning": null,
+  "switch_reasoning": null,
+  "policies": [
+   "none",
+   "escalate"
+  ],
+  "verifier": "oracle",
+  "fn_rate": 0.2,
+  "fp_rate": 0.05,
+  "n_traj": 1,
+  "n_steps": 4,
+  "ops": 3,
+  "accounts": 8,
+  "k": 1,
+  "checkpoint_every": 4,
+  "max_rollbacks": 4,
+  "infra_retries": 2,
+  "max_calls_per_task": 24,
+  "usd_cap": 0.02,
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "thinking_level": "low",
+  "expected_output": 400,
+  "seed_start": 2000,
+  "rpm": "mistral=20,kilocode=3",
+  "tpm": "",
+  "out": "runs/smoke_t1_regress"
+ },
+ "rows": [
+  {
+   "seed": 2000,
+   "policy": "none",
+   "success": false,
+   "progress": 0.0,
+   "local_progress": 0.0,
+   "usd": 0.00022930000000000004,
+   "tokens": 2293,
+   "calls": 4,
+   "retries": 0,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false
+  },
+  {
+   "seed": 2000,
+   "policy": "escalate",
+   "success": true,
+   "progress": 1.0,
+   "local_progress": 1.0,
+   "usd": 0.0022567999999999998,
+   "tokens": 5621,
+   "calls": 6,
+   "retries": 1,
+   "rollbacks": 0,
+   "escalated": true,
+   "aborted": false
+  }
+ ]
+}

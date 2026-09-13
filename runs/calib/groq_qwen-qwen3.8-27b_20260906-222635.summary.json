@@ -1,0 +1,253 @@
+{
+ "config": {
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "switch_provider": "gemini",
+  "switch_model": "gemini-3.6-flash",
+  "temperature": 0.7,
+  "max_tokens": 1024,
+  "thinking_level": "low",
+  "k": 1,
+  "n_steps": 8,
+  "ops_per_step": 5,
+  "n_accounts": 8,
+  "strategies": [
+   "same"
+  ]
+ },
+ "trajectories": [
+  {
+   "seed": 5000,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 2,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 5,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 6,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 7,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 8,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "infra_http_429"
+       ],
+       "recovered_at": null
+      }
+     }
+    }
+   ]
+  },
+  {
+   "seed": 5001,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 2,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 3,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 4,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 5,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 6,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 7,
+     "main_outcome": "infra_http_429",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "infra_http_429",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    }
+   ]
+  },
+  {
+   "seed": 5002,
+   "steps": [
+    {
+     "t": 1,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 2,
+     "main_outcome": "ok",
+     "recoveries": {}
+    },
+    {
+     "t": 3,
+     "main_outcome": "semantic",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 4,
+     "main_outcome": "infra_http_429",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "ok"
+       ],
+       "recovered_at": 1
+      }
+     }
+    },
+    {
+     "t": 5,
+     "main_outcome": "infra_http_429",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 6,
+     "main_outcome": "infra_http_429",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 7,
+     "main_outcome": "infra_http_429",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    },
+    {
+     "t": 8,
+     "main_outcome": "infra_http_429",
+     "recoveries": {
+      "same": {
+       "attempts": [
+        "semantic"
+       ],
+       "recovered_at": null
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

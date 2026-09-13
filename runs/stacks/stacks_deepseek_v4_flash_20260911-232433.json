@@ -1,0 +1,3677 @@
+{
+ "stacks": [
+  "amd:DeepSeek-V4-Flash#a",
+  "amd:DeepSeek-V4-Flash#b",
+  "amd:DeepSeek-V4-Flash[think]#a",
+  "amd:DeepSeek-V4-Flash[think]#b",
+  "nvidia:deepseek-ai/deepseek-v4-flash-0731#a",
+  "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a"
+ ],
+ "results": [
+  {
+   "idx": 0,
+   "seed": 7000,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 3583,
+     "tokens": 225
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 3907,
+     "tokens": 225
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 22648,
+     "tokens": 833
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 18382,
+     "tokens": 811
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 859,
+     "tokens": 423
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60026,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 1,
+   "seed": 7000,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 3853,
+     "tokens": 860
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 3933,
+     "tokens": 860
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 41359,
+     "tokens": 1170
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 15303,
+     "tokens": 1274
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 1886,
+     "tokens": 1087
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 1576,
+     "tokens": 860
+    }
+   }
+  },
+  {
+   "idx": 2,
+   "seed": 7000,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 3716,
+     "tokens": 1491
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 4691,
+     "tokens": 1491
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 115,
+      "delta": 362,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 132
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 115, \"delta\": 362, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 132}",
+     "latency_ms": 107773,
+     "tokens": 5287
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 25489,
+     "tokens": 2071
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 1491,
+     "tokens": 1701
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 450,
+     "tokens": 1491
+    }
+   }
+  },
+  {
+   "idx": 3,
+   "seed": 7000,
+   "t": 13,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 12696,
+     "tokens": 2149
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 11630,
+     "tokens": 2149
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 17679,
+     "tokens": 2593
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 63363,
+     "tokens": 2593
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60077,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60067,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 4,
+   "seed": 7001,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1446,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 385, \"charlie\": 378, \"delta\": 1446, \"echo\": 430, \"foxtrot\": 723, \"golf\": 748, \"hotel\": 189}",
+     "latency_ms": 4007,
+     "tokens": 223
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1446,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 385, \"charlie\": 378, \"delta\": 1446, \"echo\": 430, \"foxtrot\": 723, \"golf\": 748, \"hotel\": 189}",
+     "latency_ms": 3949,
+     "tokens": 223
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\":170,\"bravo\":385,\"charlie\":378,\"delta\":1520,\"echo\":430,\"foxtrot\":723,\"golf\":748,\"hotel\":189}",
+     "latency_ms": 25305,
+     "tokens": 1052
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 385, \"charlie\": 378, \"delta\": 1520, \"echo\": 430, \"foxtrot\": 723, \"golf\": 748, \"hotel\": 189}",
+     "latency_ms": 36730,
+     "tokens": 921
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 385, \"charlie\": 378, \"delta\": 1520, \"echo\": 430, \"foxtrot\": 723, \"golf\": 748, \"hotel\": 189}",
+     "latency_ms": 721,
+     "tokens": 414
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1446,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 385, \"charlie\": 378, \"delta\": 1446, \"echo\": 430, \"foxtrot\": 723, \"golf\": 748, \"hotel\": 189}",
+     "latency_ms": 257,
+     "tokens": 223
+    }
+   }
+  },
+  {
+   "idx": 5,
+   "seed": 7001,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 17422,
+     "tokens": 818
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 9465,
+     "tokens": 818
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 19459,
+     "tokens": 1310
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 13658,
+     "tokens": 1102
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 6959,
+     "tokens": 956
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 462,
+     "tokens": 818
+    }
+   }
+  },
+  {
+   "idx": 6,
+   "seed": 7001,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 31328,
+     "tokens": 1523
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 9231,
+     "tokens": 1523
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 61489,
+     "tokens": 2259
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 154528,
+     "tokens": 2291
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 1130,
+     "tokens": 1747
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 386,
+     "tokens": 1523
+    }
+   }
+  },
+  {
+   "idx": 7,
+   "seed": 7001,
+   "t": 13,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 51448,
+     "tokens": 2177
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 25045,
+     "tokens": 2177
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 32843,
+     "tokens": 2613
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 134362,
+     "tokens": 2563
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 777,
+     "tokens": 2368
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 487,
+     "tokens": 2177
+    }
+   }
+  },
+  {
+   "idx": 8,
+   "seed": 7002,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1079,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1079, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 39770,
+     "tokens": 229
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1078, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 25199,
+     "tokens": 229
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1078, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 33606,
+     "tokens": 749
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1078, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 69859,
+     "tokens": 897
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1078, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 808,
+     "tokens": 336
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1079,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1079, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 285,
+     "tokens": 229
+    }
+   }
+  },
+  {
+   "idx": 9,
+   "seed": 7002,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 31626,
+     "tokens": 870
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 28619,
+     "tokens": 870
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 70169,
+     "tokens": 1190
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 70545,
+     "tokens": 1186
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 708,
+     "tokens": 1025
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 484,
+     "tokens": 870
+    }
+   }
+  },
+  {
+   "idx": 10,
+   "seed": 7002,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 106749,
+     "tokens": 1484
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 51592,
+     "tokens": 1484
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 145106,
+     "tokens": 3300
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 69377,
+     "tokens": 2710
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 2689,
+     "tokens": 1670
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 770,
+     "tokens": 1484
+    }
+   }
+  },
+  {
+   "idx": 11,
+   "seed": 7002,
+   "t": 13,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 37325,
+     "tokens": 2106
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 17671,
+     "tokens": 2106
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 94078,
+     "tokens": 3948
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 75720,
+     "tokens": 3144
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 1433,
+     "tokens": 2511
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 988,
+     "tokens": 2106
+    }
+   }
+  },
+  {
+   "idx": 12,
+   "seed": 7003,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 47419,
+     "tokens": 212
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 26167,
+     "tokens": 212
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 40206,
+     "tokens": 484
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 38340,
+     "tokens": 622
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 562,
+     "tokens": 361
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 310,
+     "tokens": 212
+    }
+   }
+  },
+  {
+   "idx": 13,
+   "seed": 7003,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 164,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 164, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 17958,
+     "tokens": 853
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 164,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 164, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 25854,
+     "tokens": 853
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 180, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 61368,
+     "tokens": 1399
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 180, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 62949,
+     "tokens": 1379
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 180, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 1414,
+     "tokens": 1061
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 178,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 178, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 441,
+     "tokens": 853
+    }
+   }
+  },
+  {
+   "idx": 14,
+   "seed": 7003,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 23722,
+     "tokens": 1510
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 16657,
+     "tokens": 1510
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 30348,
+     "tokens": 1974
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 75507,
+     "tokens": 1958
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 4332,
+     "tokens": 1684
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 408,
+     "tokens": 1510
+    }
+   }
+  },
+  {
+   "idx": 15,
+   "seed": 7003,
+   "t": 13,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 49682,
+     "tokens": 2154
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 38370,
+     "tokens": 2154
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 51768,
+     "tokens": 2484
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 46836,
+     "tokens": 2480
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 736,
+     "tokens": 2314
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 859,
+     "tokens": 2154
+    }
+   }
+  },
+  {
+   "idx": 16,
+   "seed": 7004,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 85767,
+     "tokens": 219
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 37757,
+     "tokens": 219
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 51334,
+     "tokens": 703
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 42026,
+     "tokens": 475
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 861,
+     "tokens": 361
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 283,
+     "tokens": 219
+    }
+   }
+  },
+  {
+   "idx": 17,
+   "seed": 7004,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 25025,
+     "tokens": 854
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 34966,
+     "tokens": 854
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 76193,
+     "tokens": 1312
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 58047,
+     "tokens": 1376
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 954,
+     "tokens": 1111
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 686,
+     "tokens": 854
+    }
+   }
+  },
+  {
+   "idx": 18,
+   "seed": 7004,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 44587,
+     "tokens": 1490
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 26455,
+     "tokens": 1490
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 35449,
+     "tokens": 1834
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 33862,
+     "tokens": 1860
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60053,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 631,
+     "tokens": 1490
+    }
+   }
+  },
+  {
+   "idx": 19,
+   "seed": 7004,
+   "t": 13,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 30500,
+     "tokens": 2173
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 19338,
+     "tokens": 2173
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 55121,
+     "tokens": 2475
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 38764,
+     "tokens": 2475
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60081,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 753,
+     "tokens": 2173
+    }
+   }
+  },
+  {
+   "idx": 20,
+   "seed": 7005,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\": 467, \"bravo\": 587, \"charlie\": 332, \"delta\": 378, \"echo\": 56, \"foxtrot\": 57, \"golf\": 993, \"hotel\": 700}",
+     "latency_ms": 41595,
+     "tokens": 212
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\": 467, \"bravo\": 587, \"charlie\": 332, \"delta\": 378, \"echo\": 56, \"foxtrot\": 57, \"golf\": 993, \"hotel\": 700}",
+     "latency_ms": 26709,
+     "tokens": 212
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\":467,\"bravo\":587,\"charlie\":332,\"delta\":378,\"echo\":56,\"foxtrot\":57,\"golf\":993,\"hotel\":700}",
+     "latency_ms": 67716,
+     "tokens": 871
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\": 467, \"bravo\": 587, \"charlie\": 332, \"delta\": 378, \"echo\": 56, \"foxtrot\": 57, \"golf\": 993, \"hotel\": 700}",
+     "latency_ms": 57491,
+     "tokens": 568
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\":467,\"bravo\":587,\"charlie\":332,\"delta\":378,\"echo\":56,\"foxtrot\":57,\"golf\":993,\"hotel\":700}",
+     "latency_ms": 801,
+     "tokens": 362
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\": 467, \"bravo\": 587, \"charlie\": 332, \"delta\": 378, \"echo\": 56, \"foxtrot\": 57, \"golf\": 993, \"hotel\": 700}",
+     "latency_ms": 335,
+     "tokens": 212
+    }
+   }
+  },
+  {
+   "idx": 21,
+   "seed": 7005,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 214
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 214}",
+     "latency_ms": 40610,
+     "tokens": 875
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 216
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 216}",
+     "latency_ms": 39269,
+     "tokens": 875
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 216
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 216}",
+     "latency_ms": 64543,
+     "tokens": 1371
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 216
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 216}",
+     "latency_ms": 131912,
+     "tokens": 1783
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60081,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 214
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 214}",
+     "latency_ms": 483,
+     "tokens": 875
+    }
+   }
+  },
+  {
+   "idx": 22,
+   "seed": 7005,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 117,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": -129,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": 117, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": -129, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 71874,
+     "tokens": 1490
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 117,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": -129,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": 117, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": -129, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 118732,
+     "tokens": 1490
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": 60,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": 60, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 108004,
+     "tokens": 1978
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": 60,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": 60, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 234570,
+     "tokens": 5052
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": 60,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": 60, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 1065,
+     "tokens": 1691
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60048,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 23,
+   "seed": 7005,
+   "t": 13,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 70833,
+     "tokens": 2129
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 175664,
+     "tokens": 2129
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 134152,
+     "tokens": 2419
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 128813,
+     "tokens": 2401
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60073,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 501,
+     "tokens": 2129
+    }
+   }
+  },
+  {
+   "idx": 24,
+   "seed": 7006,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 14,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\": 415, \"bravo\": 881, \"charlie\": 76, \"delta\": 451, \"echo\": 56, \"foxtrot\": 14, \"golf\": 507, \"hotel\": 575}",
+     "latency_ms": 160411,
+     "tokens": 243
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 186,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\": 415, \"bravo\": 881, \"charlie\": 76, \"delta\": 451, \"echo\": 56, \"foxtrot\": 186, \"golf\": 507, \"hotel\": 575}",
+     "latency_ms": 68289,
+     "tokens": 243
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\":415,\"bravo\":881,\"charlie\":76,\"delta\":451,\"echo\":56,\"foxtrot\":193,\"golf\":507,\"hotel\":575}",
+     "latency_ms": 92142,
+     "tokens": 772
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\": 415, \"bravo\": 881, \"charlie\": 76, \"delta\": 451, \"echo\": 56, \"foxtrot\": 193, \"golf\": 507, \"hotel\": 575}",
+     "latency_ms": 238346,
+     "tokens": 791
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\": 415, \"bravo\": 881, \"charlie\": 76, \"delta\": 451, \"echo\": 56, \"foxtrot\": 193, \"golf\": 507, \"hotel\": 575}",
+     "latency_ms": 2542,
+     "tokens": 520
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 14,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\": 415, \"bravo\": 881, \"charlie\": 76, \"delta\": 451, \"echo\": 56, \"foxtrot\": 14, \"golf\": 507, \"hotel\": 575}",
+     "latency_ms": 980,
+     "tokens": 243
+    }
+   }
+  },
+  {
+   "idx": 25,
+   "seed": 7006,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1053,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1103,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1032,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1149,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60024,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60084,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 26,
+   "seed": 7006,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1131,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1099,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 173863,
+     "tokens": 2023
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 240443,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 2507,
+     "tokens": 1816
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 760,
+     "tokens": 1545
+    }
+   }
+  },
+  {
+   "idx": 27,
+   "seed": 7006,
+   "t": 13,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -19,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -19, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 133329,
+     "tokens": 2187
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -19,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -19, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 156223,
+     "tokens": 2187
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "infra_http_429",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 574,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 240446,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -19,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -19, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 6857,
+     "tokens": 2357
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -19,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -19, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 3528,
+     "tokens": 2187
+    }
+   }
+  },
+  {
+   "idx": 28,
+   "seed": 7007,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1103,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1106,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1099,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 671,
+      "bravo": 529,
+      "charlie": 214,
+      "delta": 596,
+      "echo": 320,
+      "foxtrot": 895,
+      "golf": 694,
+      "hotel": 131
+     },
+     "text": "{\"alpha\":671,\"bravo\":529,\"charlie\":214,\"delta\":596,\"echo\":320,\"foxtrot\":895,\"golf\":694,\"hotel\":131}",
+     "latency_ms": 239843,
+     "tokens": 1044
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 671,
+      "bravo": 529,
+      "charlie": 214,
+      "delta": 596,
+      "echo": 320,
+      "foxtrot": 895,
+      "golf": 694,
+      "hotel": 131
+     },
+     "text": "{\"alpha\": 671, \"bravo\": 529, \"charlie\": 214, \"delta\": 596, \"echo\": 320, \"foxtrot\": 895, \"golf\": 694, \"hotel\": 131}",
+     "latency_ms": 4604,
+     "tokens": 450
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60034,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 29,
+   "seed": 7007,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1088,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1096,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1140,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1327,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60079,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60081,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 30,
+   "seed": 7007,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1421,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1118,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1145,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1095,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60031,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 475,
+      "bravo": 380,
+      "charlie": 411,
+      "delta": 1373,
+      "echo": 746,
+      "foxtrot": -39,
+      "golf": 836,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 475, \"bravo\": 380, \"charlie\": 411, \"delta\": 1373, \"echo\": 746, \"foxtrot\": -39, \"golf\": 836, \"hotel\": 159}",
+     "latency_ms": 4549,
+     "tokens": 1463
+    }
+   }
+  },
+  {
+   "idx": 31,
+   "seed": 7007,
+   "t": 13,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1146,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 82267,
+     "tokens": 2156
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 105579,
+     "tokens": 2658
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 169040,
+     "tokens": 2664
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 9835,
+     "tokens": 2350
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 560,
+     "tokens": 2156
+    }
+   }
+  },
+  {
+   "idx": 32,
+   "seed": 7008,
+   "t": 1,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 845,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 324, \"charlie\": 845, \"delta\": 373, \"echo\": 474, \"foxtrot\": 344, \"golf\": 750, \"hotel\": 510}",
+     "latency_ms": 161920,
+     "tokens": 214
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 845,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 324, \"charlie\": 845, \"delta\": 373, \"echo\": 474, \"foxtrot\": 344, \"golf\": 750, \"hotel\": 510}",
+     "latency_ms": 211803,
+     "tokens": 214
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 500,
+     "error": "infra_http_500",
+     "kind": "infra_http_500",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 1179,
+     "tokens": 0
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 845,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 324, \"charlie\": 845, \"delta\": 373, \"echo\": 474, \"foxtrot\": 344, \"golf\": 750, \"hotel\": 510}",
+     "latency_ms": 141569,
+     "tokens": 410
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 845,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 324, \"charlie\": 845, \"delta\": 373, \"echo\": 474, \"foxtrot\": 344, \"golf\": 750, \"hotel\": 510}",
+     "latency_ms": 5629,
+     "tokens": 379
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60067,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 33,
+   "seed": 7008,
+   "t": 5,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 187243,
+     "tokens": 893
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 197157,
+     "tokens": 893
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 198997,
+     "tokens": 1817
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 502,
+     "error": "infra_http_502",
+     "kind": "infra_http_502",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 632,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 2153,
+     "tokens": 1176
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60076,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 34,
+   "seed": 7008,
+   "t": 9,
+   "outputs": {
+    "amd:DeepSeek-V4-Flash#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 154352,
+     "tokens": 1537
+    },
+    "amd:DeepSeek-V4-Flash#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 160165,
+     "tokens": 1537
+    },
+    "amd:DeepSeek-V4-Flash[think]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 115188,
+     "tokens": 1981
+    },
+    "amd:DeepSeek-V4-Flash[think]#b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 118070,
+     "tokens": 2095
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731#a": {
+     "status": 0,
+     "error": "infra_network",
+     "kind": "infra_network",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60061,
+     "tokens": 0
+    },
+    "nvidia:deepseek-ai/deepseek-v4-flash-0731[nothink]#a": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 1042,
+     "tokens": 1537
+    }
+   }
+  }
+ ]
+}

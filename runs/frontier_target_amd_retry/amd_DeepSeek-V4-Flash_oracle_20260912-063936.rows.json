@@ -1,0 +1,53 @@
+{
+ "config": {
+  "task": "t1",
+  "provider": "amd",
+  "model": "DeepSeek-V4-Flash",
+  "switch_provider": "nvidia",
+  "switch_model": "nvidia/nemotron-3-super-120b-a12b",
+  "reasoning": "think",
+  "switch_reasoning": null,
+  "policies": [
+   "retry"
+  ],
+  "verifier": "oracle",
+  "fn_rate": 0.2,
+  "fp_rate": 0.05,
+  "verifier_seed": 0,
+  "n_traj": 1,
+  "n_steps": 16,
+  "ops": 3,
+  "accounts": 8,
+  "k": 2,
+  "checkpoint_every": 4,
+  "max_rollbacks": 4,
+  "infra_retries": 2,
+  "max_calls_per_task": 96,
+  "usd_cap": 0.02,
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "thinking_level": "low",
+  "expected_output": 500,
+  "seed_start": 2008,
+  "rpm": "amd=8",
+  "tpm": "groq=7000",
+  "out": "runs/frontier_target_amd_retry"
+ },
+ "rows": [
+  {
+   "seed": 2008,
+   "policy": "retry",
+   "success": true,
+   "progress": 1.0,
+   "local_progress": 1.0,
+   "usd": 0.00537432,
+   "tokens": 30176,
+   "calls": 16,
+   "retries": 0,
+   "rollbacks": 0,
+   "escalated": false,
+   "escalations": 0,
+   "aborted": false
+  }
+ ]
+}

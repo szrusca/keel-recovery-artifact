@@ -1,0 +1,179 @@
+{
+ "summary": {
+  "target_policy": "retry",
+  "target_config_overrides": {},
+  "tasks": 20,
+  "tasks_fully_covered": 6,
+  "request_hits": 376,
+  "request_misses": 14,
+  "replay_success_rate": 0.0,
+  "replay_local_progress": 0.5833333333333334,
+  "replay_usd_per_task": 0.004907183333333334,
+  "real_success_rate": 0.0,
+  "real_local_progress": 0.553125,
+  "real_usd_per_task": 0.005186395,
+  "per_task_success_agreement": 1.0
+ },
+ "rows": [
+  {
+   "seed": 2000,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2001,
+   "policy": "retry",
+   "success": false,
+   "progress": 0.0,
+   "local_progress": 0.5625,
+   "usd": 0.0049659000000000005,
+   "tokens": 49659,
+   "calls": 30,
+   "retries": 14,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false,
+   "replayed": true
+  },
+  {
+   "seed": 2002,
+   "policy": "retry",
+   "success": false,
+   "progress": 0.0,
+   "local_progress": 0.5,
+   "usd": 0.005666300000000002,
+   "tokens": 56663,
+   "calls": 32,
+   "retries": 16,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false,
+   "replayed": true
+  },
+  {
+   "seed": 2003,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2004,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2005,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2006,
+   "policy": "retry",
+   "success": false,
+   "progress": 0.0,
+   "local_progress": 0.5625,
+   "usd": 0.004615599999999999,
+   "tokens": 46156,
+   "calls": 30,
+   "retries": 14,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false,
+   "replayed": true
+  },
+  {
+   "seed": 2007,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2008,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2009,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2010,
+   "policy": "retry",
+   "success": false,
+   "progress": 0.1875,
+   "local_progress": 0.5625,
+   "usd": 0.0053497,
+   "tokens": 53497,
+   "calls": 30,
+   "retries": 14,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false,
+   "replayed": true
+  },
+  {
+   "seed": 2011,
+   "policy": "retry",
+   "success": false,
+   "progress": 0.0625,
+   "local_progress": 0.625,
+   "usd": 0.005244200000000002,
+   "tokens": 52442,
+   "calls": 29,
+   "retries": 13,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false,
+   "replayed": true
+  },
+  {
+   "seed": 2012,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2013,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2014,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2015,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2016,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2017,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2018,
+   "policy": "retry",
+   "uncovered": true
+  },
+  {
+   "seed": 2019,
+   "policy": "retry",
+   "success": false,
+   "progress": 0.0625,
+   "local_progress": 0.6875,
+   "usd": 0.0036014000000000003,
+   "tokens": 36014,
+   "calls": 26,
+   "retries": 10,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false,
+   "replayed": true
+  }
+ ]
+}

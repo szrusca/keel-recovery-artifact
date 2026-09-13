@@ -1,0 +1,12 @@
+traj 1/10 seed=1000 main_failures=6/16 calls_so_far=85
+traj 2/10 seed=1001 main_failures=5/16 calls_so_far=186
+traj 3/10 seed=1002 main_failures=8/16 calls_so_far=338
+traj 4/10 seed=1003 main_failures=9/16 calls_so_far=494
+traj 5/10 seed=1004 main_failures=4/16 calls_so_far=571
+traj 6/10 seed=1005 main_failures=4/16 calls_so_far=655
+traj 7/10 seed=1006 main_failures=8/16 calls_so_far=792
+traj 8/10 seed=1007 main_failures=7/16 calls_so_far=908
+traj 9/10 seed=1008 main_failures=7/16 calls_so_far=1026
+traj 10/10 seed=1009 main_failures=10/16 calls_so_far=1207
+events: runs/pilot/mistral_ministral-14b-latest_20260909-065452.events.jsonl
+DONE

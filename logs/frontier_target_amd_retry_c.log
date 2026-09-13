@@ -1,0 +1,2 @@
+seed=2008 policy=retry     success=True progress=1.00 local=1.00 usd=0.00537 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+events: runs/frontier_target_amd_retry/amd_DeepSeek-V4-Flash_oracle_20260912-063936.events.jsonl

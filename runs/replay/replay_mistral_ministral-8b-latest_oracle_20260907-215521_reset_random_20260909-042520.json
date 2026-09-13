@@ -1,0 +1,139 @@
+{
+ "summary": {
+  "target_policy": "reset",
+  "target_config_overrides": {},
+  "tasks": 20,
+  "tasks_fully_covered": 2,
+  "request_hits": 223,
+  "request_misses": 18,
+  "replay_success_rate": 0.0,
+  "replay_local_progress": 0.6875,
+  "replay_usd_per_task": 0.0030221000000000007,
+  "real_success_rate": 0.0,
+  "real_local_progress": 0.565625,
+  "real_usd_per_task": 0.0031585700000000003,
+  "per_task_success_agreement": 1.0
+ },
+ "rows": [
+  {
+   "seed": 2000,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2001,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2002,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2003,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2004,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2005,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2006,
+   "policy": "reset",
+   "success": false,
+   "progress": 0.0,
+   "local_progress": 0.6875,
+   "usd": 0.003142200000000001,
+   "tokens": 31422,
+   "calls": 26,
+   "retries": 10,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false,
+   "replayed": true
+  },
+  {
+   "seed": 2007,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2008,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2009,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2010,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2011,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2012,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2013,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2014,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2015,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2016,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2017,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2018,
+   "policy": "reset",
+   "uncovered": true
+  },
+  {
+   "seed": 2019,
+   "policy": "reset",
+   "success": false,
+   "progress": 0.0625,
+   "local_progress": 0.6875,
+   "usd": 0.002902,
+   "tokens": 29020,
+   "calls": 26,
+   "retries": 10,
+   "rollbacks": 0,
+   "escalated": false,
+   "aborted": false,
+   "replayed": true
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+seed=2010 policy=none      success=True progress=1.00 local=1.00 usd=0.00604 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2011 policy=none      success=True progress=1.00 local=1.00 usd=0.00582 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2012 policy=none      success=True progress=1.00 local=1.00 usd=0.00531 calls=17 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2013 policy=none      success=False progress=0.50 local=0.94 usd=0.00574 calls=17 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2014 policy=none      success=False progress=0.19 local=0.94 usd=0.00573 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2015 policy=none      success=False progress=0.31 local=0.94 usd=0.00489 calls=20 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2016 policy=none      success=True progress=1.00 local=1.00 usd=0.00601 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2017 policy=none      success=True progress=1.00 local=1.00 usd=0.00518 calls=19 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2018 policy=none      success=True progress=1.00 local=1.00 usd=0.00538 calls=17 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2019 policy=none      success=True progress=1.00 local=1.00 usd=0.00548 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+events: runs/frontier_target_amd/amd_DeepSeek-V4-Flash_oracle_20260911-215643.events.jsonl

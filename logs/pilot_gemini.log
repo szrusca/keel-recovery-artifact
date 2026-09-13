@@ -1,0 +1,5 @@
+traj 1/4 seed=1000 main_failures=6/16 calls_so_far=95
+traj 2/4 seed=1001 main_failures=9/16 calls_so_far=235
+stopped: max_calls reached
+events: runs/pilot/gemini_gemini-3.5-flash-lite_20260906-223950.events.jsonl
+DONE

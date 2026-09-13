@@ -1,0 +1,231 @@
+{
+ "n_main_steps": 31,
+ "p_step": 0.1935483870967742,
+ "eps0": 0.8064516129032258,
+ "p_by_t": {
+  "1": 0.5,
+  "2": 0.0,
+  "3": 0.5,
+  "4": 0.0,
+  "5": 0.5,
+  "6": 0.0,
+  "7": 0.0,
+  "8": 0.0,
+  "9": 0.5,
+  "10": 0.0,
+  "11": 0.5,
+  "12": 0.0,
+  "13": 0.0,
+  "14": 0.5,
+  "15": 0.0,
+  "16": 0.0
+ },
+ "failure_classes": {
+  "semantic": 10,
+  "infra": 15
+ },
+ "failure_detail": {
+  "semantic": 10,
+  "infra_http_429": 15
+ },
+ "n_failure_points": 25,
+ "kmax": 3,
+ "theory_independent": [
+  0.19354838709677424,
+  0.34963579604578576,
+  0.4755127387466014
+ ],
+ "overall": {
+  "hot": {
+   "n": 24,
+   "recovered_within_k": [
+    0.041666666666666664,
+    0.041666666666666664,
+    0.041666666666666664
+   ],
+   "eps1": 0.9583333333333334,
+   "tokens_per_point": 2105.125,
+   "usd_per_point": 0.0019452999999999999,
+   "usd_per_recovery": 0.0466872
+  },
+  "rephrase": {
+   "n": 24,
+   "recovered_within_k": [
+    0.041666666666666664,
+    0.08333333333333333,
+    0.125
+   ],
+   "eps1": 0.9583333333333334,
+   "tokens_per_point": 2059.875,
+   "usd_per_point": 0.0018924333333333336,
+   "usd_per_recovery": 0.015139466666666669
+  },
+  "reset": {
+   "n": 24,
+   "recovered_within_k": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.25
+   ],
+   "eps1": 0.8333333333333334,
+   "tokens_per_point": 490.4583333333333,
+   "usd_per_point": 0.0007610333333333332,
+   "usd_per_recovery": 0.003044133333333333
+  },
+  "same": {
+   "n": 24,
+   "recovered_within_k": [
+    0.0,
+    0.08333333333333333,
+    0.08333333333333333
+   ],
+   "eps1": 1.0,
+   "tokens_per_point": 2220.5416666666665,
+   "usd_per_point": 0.0020563,
+   "usd_per_recovery": 0.0246756
+  },
+  "switch": {
+   "n": 24,
+   "recovered_within_k": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "eps1": 0.0,
+   "tokens_per_point": 2594.1666666666665,
+   "usd_per_point": 0.0008043499999999998,
+   "usd_per_recovery": 0.0008043499999999998
+  }
+ },
+ "by_class": {
+  "infra": {
+   "hot": {
+    "n": 14,
+    "recovered_within_k": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "eps1": 1.0,
+    "tokens_per_point": 200.78571428571428,
+    "usd_per_point": 0.00019194285714285717,
+    "usd_per_recovery": null
+   },
+   "rephrase": {
+    "n": 14,
+    "recovered_within_k": [
+     0.0,
+     0.07142857142857142,
+     0.07142857142857142
+    ],
+    "eps1": 1.0,
+    "tokens_per_point": 611.5714285714286,
+    "usd_per_point": 0.0005528,
+    "usd_per_recovery": 0.0077392
+   },
+   "reset": {
+    "n": 14,
+    "recovered_within_k": [
+     0.14285714285714285,
+     0.14285714285714285,
+     0.21428571428571427
+    ],
+    "eps1": 0.8571428571428571,
+    "tokens_per_point": 377.35714285714283,
+    "usd_per_point": 0.0005926285714285713,
+    "usd_per_recovery": 0.0027655999999999996
+   },
+   "same": {
+    "n": 14,
+    "recovered_within_k": [
+     0.0,
+     0.07142857142857142,
+     0.07142857142857142
+    ],
+    "eps1": 1.0,
+    "tokens_per_point": 136.85714285714286,
+    "usd_per_point": 0.00014102857142857142,
+    "usd_per_recovery": 0.0019744
+   },
+   "switch": {
+    "n": 14,
+    "recovered_within_k": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "eps1": 0.0,
+    "tokens_per_point": 2680.0714285714284,
+    "usd_per_point": 0.0008287857142857143,
+    "usd_per_recovery": 0.0008287857142857143
+   }
+  },
+  "semantic": {
+   "hot": {
+    "n": 10,
+    "recovered_within_k": [
+     0.1,
+     0.1,
+     0.1
+    ],
+    "eps1": 0.9,
+    "tokens_per_point": 4771.2,
+    "usd_per_point": 0.004399999999999999,
+    "usd_per_recovery": 0.044
+   },
+   "rephrase": {
+    "n": 10,
+    "recovered_within_k": [
+     0.1,
+     0.1,
+     0.2
+    ],
+    "eps1": 0.9,
+    "tokens_per_point": 4087.5,
+    "usd_per_point": 0.0037679199999999997,
+    "usd_per_recovery": 0.018839599999999998
+   },
+   "reset": {
+    "n": 10,
+    "recovered_within_k": [
+     0.2,
+     0.2,
+     0.3
+    ],
+    "eps1": 0.8,
+    "tokens_per_point": 648.8,
+    "usd_per_point": 0.0009967999999999997,
+    "usd_per_recovery": 0.003322666666666666
+   },
+   "same": {
+    "n": 10,
+    "recovered_within_k": [
+     0.0,
+     0.1,
+     0.1
+    ],
+    "eps1": 1.0,
+    "tokens_per_point": 5137.7,
+    "usd_per_point": 0.004737679999999999,
+    "usd_per_recovery": 0.0473768
+   },
+   "switch": {
+    "n": 10,
+    "recovered_within_k": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "eps1": 0.0,
+    "tokens_per_point": 2473.9,
+    "usd_per_point": 0.0007701399999999999,
+    "usd_per_recovery": 0.0007701399999999999
+   }
+  }
+ },
+ "main_tokens": 28339,
+ "main_usd": 0.026149600000000002,
+ "n_retry_calls": 297,
+ "retry_usd": 0.17902600000000002,
+ "retry_latency_ms_mean": 925.2727272727273
+}

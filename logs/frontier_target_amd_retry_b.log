@@ -1,0 +1,12 @@
+seed=2009 policy=retry     success=True progress=1.00 local=1.00 usd=0.00532 calls=17 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2010 policy=retry     success=True progress=1.00 local=1.00 usd=0.00542 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2011 policy=retry     success=True progress=1.00 local=1.00 usd=0.00534 calls=17 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2012 policy=retry     success=True progress=1.00 local=1.00 usd=0.00542 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2013 policy=retry     success=True progress=1.00 local=1.00 usd=0.00522 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2014 policy=retry     success=True progress=1.00 local=1.00 usd=0.00505 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2015 policy=retry     success=True progress=1.00 local=1.00 usd=0.00531 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2016 policy=retry     success=True progress=1.00 local=1.00 usd=0.00562 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2017 policy=retry     success=True progress=1.00 local=1.00 usd=0.00595 calls=17 retries=1 rollbacks=0 escalated=False aborted=False
+seed=2018 policy=retry     success=True progress=1.00 local=1.00 usd=0.00569 calls=17 retries=0 rollbacks=0 escalated=False aborted=False
+seed=2019 policy=retry     success=True progress=1.00 local=1.00 usd=0.00490 calls=16 retries=0 rollbacks=0 escalated=False aborted=False
+events: runs/frontier_target_amd_retry/amd_DeepSeek-V4-Flash_oracle_20260912-053119.events.jsonl

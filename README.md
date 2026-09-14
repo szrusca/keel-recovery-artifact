@@ -1,6 +1,25 @@
 # Keel: an event-sourced runtime for measuring the economics of recovery in LLM agent workflows
 
-Artifact for the paper. The runtime is called Keel in the paper; the Python package is `ledger`. Pure standard library, no third-party dependencies.
+Artifact for the paper *The Economics of Recovery: Measuring What Retry, Rollback, and Escalation Buy in Long-Horizon LLM Agent Workflows* (Zhouran Song, Independent Researcher, 2026; under review). The runtime is called Keel in the paper; the Python package is `ledger`. Pure standard library, no third-party dependencies.
+
+## Author and contact
+
+Zhouran Song, Independent Researcher, Santa Clara, California. Contact: songzhouran@gmail.com. Issues and pull requests on this repository are welcome.
+
+## Citing
+
+Until the paper appears, please cite the artifact and the preprint:
+
+```bibtex
+@misc{song2026recovery,
+  author = {Song, Zhouran},
+  title  = {The Economics of Recovery: Measuring What Retry, Rollback, and Escalation Buy in Long-Horizon {LLM} Agent Workflows},
+  year   = {2026},
+  note   = {Manuscript under review. Artifact: \url{https://github.com/szrusca/keel-recovery-artifact}}
+}
+```
+
+A Zenodo DOI for the archived snapshot will be added here once minted.
 
 ## Layout
 

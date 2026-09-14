@@ -2,11 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22754512.svg)](https://doi.org/10.5281/zenodo.22754512)
 
-Artifact for the paper *The Economics of Recovery: Measuring What Retry, Rollback, and Escalation Buy in Long-Horizon LLM Agent Workflows* (Zhouran Song, Independent Researcher, 2026; under review). The runtime is called Keel in the paper; the Python package is `ledger`. Pure standard library, no third-party dependencies.
+Artifact for the paper *The Economics of Recovery: Measuring What Retry, Rollback, and Escalation Buy in Long-Horizon LLM Agent Workflows* (Zhouran Song, Independent Researcher, 2026; under review). The runtime is called Keel in the paper; the Python package is `ledger`. Pure standard library, no third-party dependencies, except `ledger/figures.py`, which needs matplotlib.
 
 ## Author and contact
 
-Zhouran Song, Independent Researcher, Santa Clara, California. Contact: songzhouran@gmail.com. Issues and pull requests on this repository are welcome.
+Zhouran Song, Independent Researcher, Santa Clara, California. ORCID [0009-0001-2985-0012](https://orcid.org/0009-0001-2985-0012). Contact: songzhouran@gmail.com. Issues and pull requests on this repository are welcome.
 
 ## Citing
 
@@ -48,9 +48,9 @@ ledger/
   stacks.py             Experiment 3: same weights on different serving stacks
   analyze_pilot.py      Exp 1 tables; analyze_hetero.py fits the Beta-geometric null (Eq. 2)
   analyze_frontier.py   Exp 2 tables; recost.py recomputes cost from events
-  analyze_escalation.py target-only / escalate / escalate-and-return comparison (paper Table IV)
-  analyze_stacks.py     per-stack accuracy and pairwise divergence (paper Table VI); stacks_rebuild.py rebuilds a stacks JSON from its event log
-  figures.py            paper figures
+  analyze_escalation.py target-only / escalate / escalate-and-return comparison
+  analyze_stacks.py     per-stack accuracy and pairwise divergence; stacks_rebuild.py rebuilds a stacks JSON from its event log
+  figures.py            paper figures (the only module that needs a third-party package: matplotlib)
 runs/                   raw event logs (*.events.jsonl) and per-run summaries (*.rows.json / *.summary.json)
 results/                analysis outputs (JSON), one file per experiment cell or analysis
 logs/                   stdout of every run
@@ -66,11 +66,11 @@ Prompts for both task families are the string constants in `ledger/tasks_t1.py` 
 ## Reproducing the tables
 
 ```
-python3 -m ledger.analyze_hetero --out results/19-heterogeneity.md                       # Table II, Figure 1
-python3 -m ledger.analyze_frontier runs/frontier/*.rows.json --out results/08-frontier.md # Table III
-python3 -m ledger.analyze_escalation runs/frontier_escstep_k0/*.events.jsonl             # Table IV rows (nemotron target)
+python3 -m ledger.analyze_hetero --out results/19-heterogeneity.md                       # failure-point heterogeneity table and Figure 1
+python3 -m ledger.analyze_frontier runs/frontier/*.rows.json --out results/08-frontier.md # policy cost-frontier table
+python3 -m ledger.analyze_escalation runs/frontier_escstep_k0/*.events.jsonl             # escalation-variant table (nemotron target)
 python3 -m ledger.analyze_escalation runs/frontier_target_amd_retry/*.events.jsonl --base-provider none
-python3 -m ledger.analyze_stacks runs/stacks/stacks_deepseek_v4_flash_*.json              # Table VI rows (DeepSeek)
+python3 -m ledger.analyze_stacks runs/stacks/stacks_deepseek_v4_flash_*.json              # serving-stack divergence table (DeepSeek)
 python3 -m ledger.figures --out figures
 ```
 
@@ -85,3 +85,7 @@ python3 -m ledger.frontier --task t1 --provider mistral --model ministral-8b-lat
 ```
 
 All experiments in the paper ran on free API tiers; `results/00-provider-limits.md` records every measured limit and outage.
+
+## License
+
+Code (`ledger/`, `check_keys.py`) is under the MIT License (`LICENSE`); data and logs (`runs/`, `results/`, `logs/`) are under CC BY 4.0 (`LICENSE-DATA.md`). Citation metadata is in `CITATION.cff`.

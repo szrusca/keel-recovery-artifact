@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+type: software
+title: "Keel: event-sourced runtime and logs for the economics of recovery in LLM agent workflows"
+authors:
+  - family-names: Song
+    given-names: Zhouran
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0001-2985-0012"
+version: v1.0.1
+date-released: 2026-09-14
+doi: 10.5281/zenodo.22754511
+repository-code: https://github.com/szrusca/keel-recovery-artifact
+license: MIT
+keywords:
+  - LLM agents
+  - reliability
+  - fault tolerance
+  - checkpointing
+  - cost analysis
+  - event sourcing
+preferred-citation:
+  type: article
+  title: "The Economics of Recovery: Measuring What Retry, Rollback, and Escalation Buy in Long-Horizon LLM Agent Workflows"
+  authors:
+    - family-names: Song
+      given-names: Zhouran
+      affiliation: Independent Researcher
+      orcid: "https://orcid.org/0009-0001-2985-0012"
+  year: 2026
+  notes: Manuscript under review.

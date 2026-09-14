@@ -13,6 +13,9 @@ plt.rcParams.update({"font.family": "STIXGeneral", "mathtext.fontset": "stix", "
 
 SERIES = {"same": "#2a78d6", "hot": "#eb6834", "rephrase": "#1baf7a", "reset": "#eda100", "switch": "#e87ba4"}
 POLICY_COLORS = {"none": "#52514e", "retry": "#2a78d6", "reset": "#eda100", "rollback": "#1baf7a", "budget": "#eb6834", "escalate": "#e87ba4"}
+SERIES_MARKERS = {"same": "o", "hot": "s", "rephrase": "^", "reset": "D", "switch": "v"}
+POLICY_MARKERS = {"none": "o", "retry": "s", "reset": "^", "rollback": "D", "budget": "v", "escalate": "*"}
+SERIES_STYLES = {"same": "-", "hot": (0, (5, 1.5)), "rephrase": (0, (1, 1.2)), "reset": (0, (4, 1.2, 1, 1.2)), "switch": "-"}
 LABELS = {"same": "same prompt", "hot": "temperature 1.0", "rephrase": "rephrased prompt", "reset": "cleared context", "switch": "switch to reasoning-on target"}
 POLICY_LABELS = {"none": "none", "retry": "retry", "reset": "reset", "rollback": "rollback", "budget": "budget", "escalate": "escalate"}
 TEXT = "#0b0b0b"
@@ -43,11 +46,11 @@ def fig_recovery(panels, out, hetero_json):
         a = H[key]
         kmax = a["kmax"]
         ks = list(range(1, kmax + 1))
-        ax.plot(ks, [100 * v for v in a["naive_independent"]], color=MUTED, linestyle="--", linewidth=1.6, label="independent-failure model, marginal p (Eq. 1)")
-        ax.plot(ks, [100 * v for v in a["beta_geometric_same"]["predicted_recovery"]], color=MUTED, linestyle=":", linewidth=1.8, label="heterogeneity null fitted to same-prompt retries (Eq. 2)")
+        ax.plot(ks, [100 * v for v in a["naive_independent"]], color=MUTED, linestyle="--", linewidth=1.6, label="s-independent failure model, marginal p, (1)")
+        ax.plot(ks, [100 * v for v in a["beta_geometric_same"]["predicted_recovery"]], color=MUTED, linestyle=":", linewidth=1.8, label="heterogeneity null fitted to same-prompt retries, (2)")
         for s_, color in SERIES.items():
             if s_ in a["per_strategy"]:
-                ax.plot(ks, [100 * v for v in a["per_strategy"][s_]["recovered_within_k"]], color=color, linewidth=2, marker="o", markersize=4, label=LABELS[s_])
+                ax.plot(ks, [100 * v for v in a["per_strategy"][s_]["recovered_within_k"]], color=color, linewidth=1.7, linestyle=SERIES_STYLES[s_], marker=SERIES_MARKERS[s_], markersize=5, markeredgecolor="white", markeredgewidth=0.7, label=LABELS[s_])
         ax.set_title(f"{title}  (p={a['p_step']:.2f}, n={a['n_points']})", fontsize=9, loc="left")
         ax.set_xticks(ks)
         ax.set_ylim(0, 102)
@@ -65,6 +68,7 @@ def fig_recovery(panels, out, hetero_json):
 
 
 EXTRA_POLICIES = {"escalate_step": ("#4a3aa7", "escalate-and-return"), "target_only": ("#008300", "target only")}
+EXTRA_MARKERS = {"escalate_step": "P", "target_only": "X"}
 
 
 def extra_points(extra):
@@ -80,14 +84,17 @@ def extra_points(extra):
 
 
 def fig_frontier(cells, out, extras=None):
-    fig, axes = plt.subplots(1, len(cells), figsize=(3.4 * len(cells), 3.0), squeeze=False, sharey=True)
-    for idx, (ax, (title, path)) in enumerate(zip(axes[0], cells)):
+    cols = 2 if len(cells) > 2 else len(cells)
+    rows = (len(cells) + cols - 1) // cols
+    fig, axes = plt.subplots(rows, cols, figsize=(3.45 * cols, 2.9 * rows), squeeze=False, sharey=True)
+    flat = list(axes.flat)
+    for idx, (ax, (title, path)) in enumerate(zip(flat, cells)):
         d = json.load(open(path))
         frontier_pts = []
         if extras and idx in extras:
             for label, x, y in extra_points(extras[idx]):
                 color, name = EXTRA_POLICIES[label]
-                ax.scatter([x], [y], s=46, color=color, edgecolors="white", linewidths=1.2, zorder=3, label=name)
+                ax.scatter([x], [y], s=64, color=color, marker=EXTRA_MARKERS[label], edgecolors="white", linewidths=1.0, zorder=3, label=name)
                 if label == "target_only":
                     ax.annotate(name, (x, y), textcoords="offset points", xytext=(4, -12), fontsize=7.5, color=TEXT)
                 else:
@@ -99,7 +106,7 @@ def fig_frontier(cells, out, extras=None):
             v = d["summary"][p]
             x = 1000 * v["usd_per_task"]
             y = 100 * v["success_rate"]
-            ax.scatter([x], [y], s=46, color=POLICY_COLORS[p], edgecolors="white", linewidths=1.2, zorder=3, label=POLICY_LABELS[p])
+            ax.scatter([x], [y], s=110 if p == "escalate" else 52, color=POLICY_COLORS[p], marker=POLICY_MARKERS[p], edgecolors="white", linewidths=1.0, zorder=3, label=POLICY_LABELS[p])
             frontier_pts.append((x, y if round(v["success_rate"] * v["n"]) > 1 else 0.0))
             if p in ("escalate", "retry"):
                 ax.annotate(POLICY_LABELS[p], (x, y), textcoords="offset points", xytext=(-4, 7), fontsize=7.5, color=TEXT, ha="right" if p == "escalate" else "left")
@@ -109,17 +116,20 @@ def fig_frontier(cells, out, extras=None):
                 front.append((x, y))
         front.sort()
         ax.step([q[0] for q in front], [q[1] for q in front], where="post", color=MUTED, linewidth=1, linestyle=":", zorder=2)
-        ax.set_title(title, fontsize=9, loc="left")
+        ax.set_title(title, fontsize=8.5, loc="left")
         ax.set_xlabel("cost per task (m$, list price)", fontsize=8)
         ax.set_ylim(-5, 108)
         style(ax)
-    axes[0][0].set_ylabel("task success rate (%)", fontsize=8)
+    for ax in flat[len(cells):]:
+        ax.axis("off")
+    for r in range(rows):
+        axes[r][0].set_ylabel("task success rate (%)", fontsize=8)
     handles, labels = axes[0][0].get_legend_handles_labels()
     seen = {}
     for h, l in zip(handles, labels):
         seen.setdefault(l, h)
-    fig.legend(list(seen.values()), list(seen.keys()), loc="lower center", ncol=8, fontsize=8, frameon=False, bbox_to_anchor=(0.5, -0.04))
-    fig.tight_layout(rect=(0, 0.06, 1, 1))
+    fig.legend(list(seen.values()), list(seen.keys()), loc="lower center", ncol=4, fontsize=8, frameon=False, bbox_to_anchor=(0.5, -0.03))
+    fig.tight_layout(rect=(0, 0.07, 1, 1))
     fig.savefig(out, dpi=200, bbox_inches="tight")
     fig.savefig(out.replace(".pdf", ".png"), dpi=160, bbox_inches="tight")
     plt.close(fig)

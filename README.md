@@ -1,5 +1,7 @@
 # Keel: an event-sourced runtime for measuring the economics of recovery in LLM agent workflows
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22754512.svg)](https://doi.org/10.5281/zenodo.22754512)
+
 Artifact for the paper *The Economics of Recovery: Measuring What Retry, Rollback, and Escalation Buy in Long-Horizon LLM Agent Workflows* (Zhouran Song, Independent Researcher, 2026; under review). The runtime is called Keel in the paper; the Python package is `ledger`. Pure standard library, no third-party dependencies.
 
 ## Author and contact
@@ -17,9 +19,19 @@ Until the paper appears, please cite the artifact and the preprint:
   year   = {2026},
   note   = {Manuscript under review. Artifact: \url{https://github.com/szrusca/keel-recovery-artifact}}
 }
+
+@software{song2026keel,
+  author    = {Song, Zhouran},
+  title     = {Keel: event-sourced runtime and logs for the economics of recovery in {LLM} agent workflows},
+  year      = {2026},
+  version   = {v1.0.1},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22754512},
+  url       = {https://doi.org/10.5281/zenodo.22754512}
+}
 ```
 
-A Zenodo DOI for the archived snapshot will be added here once minted.
+The archived snapshot of this repository is Zenodo record 10.5281/zenodo.22754512 (all versions: 10.5281/zenodo.22754511).
 
 ## Layout
 
